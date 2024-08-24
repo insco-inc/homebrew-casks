@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PICGUARD_HOMEBREW }}
+          token: ${{ secrets.PICGUARD_AUTO_COMMIT }}
 
       - uses: ruby/setup-ruby@v1
         with:
