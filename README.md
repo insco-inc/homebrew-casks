@@ -17,22 +17,6 @@ tap "picguard/picguard"
 brew "picguard"
 ```
 
-## Install a specific version
-
-If you want to install a specific release, you can include the version in the command. You can also view the list of releases [here](https://github.com/picguard/picguard/releases).
-
-```shell
-brew install picguard/picguard/picguard@1-0-0-plus-298
-```
-
-Or
-
-```bash
-brew tap picguard/picguard
-
-brew install picguard@1-0-0-plus-298
-```
-
 ## Debug
 
 `brew audit --strict --fix --cask picguard`
