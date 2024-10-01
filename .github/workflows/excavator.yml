@@ -16,13 +16,13 @@ jobs:
         uses: macauley/action-homebrew-bump-cask@v1
         with:
           # Required, custom GitHub access token with only the 'public_repo' scope enabled
-          token: ${{secrets.BREW_PG_TOKEN}}
+          token: ${{ secrets.HOMEBREW_CASKS_TOKEN }}
           # Optional, will create tap repo fork in organization
           # org: ORG
           # Bump all outdated casks in this tap
-          tap: picguard/homebrew-picguard
+          tap: kjxbyz/homebrew-casks
           # Bump only these casks if outdated
-          cask: picguard
+          cask: fafarunner, faforever, picguard
           # Optional, if don't want to check for already open PRs
           force: false # true
           # Need to set this input if want to use `brew livecheck`
