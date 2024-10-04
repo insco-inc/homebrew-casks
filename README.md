@@ -2,7 +2,7 @@
 
 [![Test](https://github.com/kjxbyz/homebrew-casks/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/kjxbyz/homebrew-casks/actions/workflows/test.yml)
 [![Excavator](https://github.com/kjxbyz/homebrew-casks/actions/workflows/excavator.yml/badge.svg)](https://github.com/kjxbyz/homebrew-casks/actions/workflows/excavator.yml)
-[![Add version](https://github.com/kjxbyz/homebrew-casks/actions/workflows/version.yml/badge.svg)](https://github.com/kjxbyz/homebrew-casks/actions/workflows/version.yml)
+<!-- [![Add version](https://github.com/kjxbyz/homebrew-casks/actions/workflows/version.yml/badge.svg)](https://github.com/kjxbyz/homebrew-casks/actions/workflows/version.yml) -->
 
 ## Casks
 
