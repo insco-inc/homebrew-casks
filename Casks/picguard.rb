@@ -26,9 +26,9 @@ cask "picguard" do
 
   zap trash: [
     "~/Library/Application Support/PicGuard",
-    "~/Library/Caches/com.kjxbyz.watermarkassistant.mac",
+    "~/Library/Caches/com.kjxbyz.picguard",
     "~/Library/Caches/PicGuard",
-    "~/Library/Preferences/com.kjxbyz.watermarkassistant.mac.plist",
-    "~/Library/Saved Application State/com.kjxbyz.watermarkassistant.mac.savedState",
+    "~/Library/Preferences/com.kjxbyz.picguard.plist",
+    "~/Library/Saved Application State/com.kjxbyz.picguard.savedState",
   ]
 end
