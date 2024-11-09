@@ -6,9 +6,8 @@
 
 ## Casks
 
-- fafarunner
-- faforever
 - picguard
+- fafarunner
 
 ## Install
 
