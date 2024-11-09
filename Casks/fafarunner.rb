@@ -26,9 +26,9 @@ cask "fafarunner" do
 
   zap trash: [
     "~/Library/Application Support/FaFa Runner",
-    "~/Library/Caches/com.chenyifaer.fafarunner.mac",
+    "~/Library/Caches/com.chenyifaer.fafarunner",
     "~/Library/Caches/FaFa Runner",
-    "~/Library/Preferences/com.chenyifaer.fafarunner.mac.plist",
-    "~/Library/Saved Application State/com.chenyifaer.fafarunner.mac.savedState",
+    "~/Library/Preferences/com.chenyifaer.fafarunner.plist",
+    "~/Library/Saved Application State/com.chenyifaer.fafarunner.savedState",
   ]
 end
