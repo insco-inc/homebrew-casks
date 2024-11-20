@@ -5,7 +5,7 @@ cask "fafarunner" do
   url "https://github.com/fafarunner/fafarunner/releases/download/v#{version}/FaFaRunner_#{version}_macos_universal.dmg",
       verified: "github.com/fafarunner/fafarunner/"
   name "FaFa Runner"
-  desc "Game developed using flame & bonfire"
+  desc "Enjoy smooth gameplay, stunning graphics, and endless fun"
   homepage "https://fafarunner.com/"
 
   livecheck do
