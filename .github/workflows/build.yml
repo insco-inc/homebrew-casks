@@ -1,0 +1,37 @@
+name: Generate casks info
+
+on:
+  workflow_dispatch:
+
+jobs:
+  json:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.KJXBYZ_AUTO_COMMIT }}
+
+      - name: brew info --json
+        shell: bash
+        run: |
+          if [ -d "Info" ]; then
+            echo "🟥 Removing Info directory"
+            rm -rf Info
+          fi
+          echo "🟩 Creating Info directory"
+          mkdir -p Info
+          cd Casks || exit
+          for cask in *.rb; do
+            brew info --cask --json=v2 "$cask" | jq '.[0]? // .' > ../Info/"${cask/%rb/json}"
+          done
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'Generated cask JSON: `brew info --json <cask>`'
+          file_pattern: Info
+          commit_options: '--no-verify --signoff'
+          commit_user_name: kjxbyz
+          commit_user_email: kjxbyz888@outlook.com
+          commit_author: kjxbyz <kjxbyz888@outlook.com>
+          add_options: '-A'
+          push_options: '--force'
