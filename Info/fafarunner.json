@@ -1,0 +1,72 @@
+{
+  "formulae": [],
+  "casks": [
+    {
+      "token": "fafarunner",
+      "full_token": "fafarunner",
+      "old_tokens": [],
+      "tap": null,
+      "name": [
+        "FaFa Runner"
+      ],
+      "desc": "Enjoy smooth gameplay, stunning graphics, and endless fun",
+      "homepage": "https://fafarunner.com/",
+      "url": "https://github.com/fafarunner/fafarunner/releases/download/v1.0.3+368/FaFaRunner_1.0.3+368_macos_universal.dmg",
+      "url_specs": {
+        "verified": "github.com/fafarunner/fafarunner/"
+      },
+      "version": "1.0.3+368",
+      "installed": null,
+      "installed_time": null,
+      "bundle_version": null,
+      "bundle_short_version": null,
+      "outdated": false,
+      "sha256": "48a9b783fe80d15fda1dcf4dc289ae045ee5781bf76f18e79b7ade75ffb991c3",
+      "artifacts": [
+        {
+          "app": [
+            "FaFa Runner.app"
+          ]
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Support/FaFa Runner",
+                "~/Library/Caches/com.chenyifaer.fafarunner",
+                "~/Library/Caches/FaFa Runner",
+                "~/Library/Preferences/com.chenyifaer.fafarunner.plist",
+                "~/Library/Saved Application State/com.chenyifaer.fafarunner.savedState"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "depends_on": {
+        "macos": {
+          ">=": [
+            "10.15"
+          ]
+        }
+      },
+      "conflicts_with": null,
+      "container": null,
+      "auto_updates": null,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement": null,
+      "tap_git_head": null,
+      "languages": [],
+      "ruby_source_path": null,
+      "ruby_source_checksum": {
+        "sha256": "07bdf215750e89d296f4a143fe8d84d2283e1a0971d5ed3cc7a3f3375954da0d"
+      }
+    }
+  ]
+}

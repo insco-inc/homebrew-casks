@@ -1,0 +1,72 @@
+{
+  "formulae": [],
+  "casks": [
+    {
+      "token": "picguard",
+      "full_token": "picguard",
+      "old_tokens": [],
+      "tap": null,
+      "name": [
+        "PicGuard"
+      ],
+      "desc": "Your pictures, your signature",
+      "homepage": "https://picguard.app/",
+      "url": "https://github.com/picguard/picguard/releases/download/v1.0.7+429/PicGuard_1.0.7+429_macos_universal.dmg",
+      "url_specs": {
+        "verified": "github.com/picguard/picguard/"
+      },
+      "version": "1.0.7+429",
+      "installed": null,
+      "installed_time": null,
+      "bundle_version": null,
+      "bundle_short_version": null,
+      "outdated": false,
+      "sha256": "2d1267b3a3c1b0e92b8c9c50409dbc725577756142726c8c1b6c2d3338ff112b",
+      "artifacts": [
+        {
+          "app": [
+            "PicGuard.app"
+          ]
+        },
+        {
+          "zap": [
+            {
+              "trash": [
+                "~/Library/Application Support/PicGuard",
+                "~/Library/Caches/com.kjxbyz.picguard",
+                "~/Library/Caches/PicGuard",
+                "~/Library/Preferences/com.kjxbyz.picguard.plist",
+                "~/Library/Saved Application State/com.kjxbyz.picguard.savedState"
+              ]
+            }
+          ]
+        }
+      ],
+      "caveats": null,
+      "depends_on": {
+        "macos": {
+          ">=": [
+            "10.15"
+          ]
+        }
+      },
+      "conflicts_with": null,
+      "container": null,
+      "auto_updates": null,
+      "deprecated": false,
+      "deprecation_date": null,
+      "deprecation_reason": null,
+      "deprecation_replacement": null,
+      "disabled": false,
+      "disable_date": null,
+      "disable_reason": null,
+      "disable_replacement": null,
+      "tap_git_head": null,
+      "languages": [],
+      "ruby_source_path": null,
+      "ruby_source_checksum": {
+        "sha256": "21d3b577384ad317d45673ae74a70d88fe62600c3bf2892e51575aad97a25223"
+      }
+    }
+  ]
+}
