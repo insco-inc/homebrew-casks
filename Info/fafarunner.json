@@ -11,17 +11,17 @@
       ],
       "desc": "Enjoy smooth gameplay, stunning graphics, and endless fun",
       "homepage": "https://fafarunner.com/",
-      "url": "https://github.com/fafarunner/fafarunner/releases/download/v1.0.3+368/FaFaRunner_1.0.3+368_macos_universal.dmg",
+      "url": "https://github.com/fafarunner/fafarunner/releases/download/v1.0.4+369/FaFaRunner_1.0.4+369_macos_universal.dmg",
       "url_specs": {
         "verified": "github.com/fafarunner/fafarunner/"
       },
-      "version": "1.0.3+368",
+      "version": "1.0.4+369",
       "installed": null,
       "installed_time": null,
       "bundle_version": null,
       "bundle_short_version": null,
       "outdated": false,
-      "sha256": "48a9b783fe80d15fda1dcf4dc289ae045ee5781bf76f18e79b7ade75ffb991c3",
+      "sha256": "5217788a18caa882119ffaab74702bb997122f629945e8c7a153f98d400846cf",
       "artifacts": [
         {
           "app": [
@@ -65,7 +65,7 @@
       "languages": [],
       "ruby_source_path": null,
       "ruby_source_checksum": {
-        "sha256": "07bdf215750e89d296f4a143fe8d84d2283e1a0971d5ed3cc7a3f3375954da0d"
+        "sha256": "eef1181641b5beae383a05fe95244b85e33dc5c868e3d6e4a69e68f98ed66256"
       }
     }
   ]
