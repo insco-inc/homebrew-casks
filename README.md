@@ -6,8 +6,24 @@
 
 ## Casks
 
-- picguard
-- fafarunner
+<table>
+  <tr>
+    <th>Casks</th>
+    <th style="text-align: center">Version</th>
+  </tr>
+  <tr>
+    <td>picguard</td>
+    <td>
+      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/kjxbyz/homebrew-casks/main/Info/picguard.json&query=$.casks.[0].version&label=homebrew">
+    </td>
+  </tr>
+  <tr>
+    <td>fafarunner</td>
+    <td>
+      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/kjxbyz/homebrew-casks/main/Info/fafarunner.json&query=$.casks.[0].version&label=homebrew">
+    </td>
+  </tr>
+</table>
 
 ## Install
 
