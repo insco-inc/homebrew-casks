@@ -23,6 +23,12 @@
       <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/kjxbyz/homebrew-casks/main/Info/fafarunner.json&query=$.casks.[0].version&label=homebrew">
     </td>
   </tr>
+  <tr>
+    <td>artify</td>
+    <td>
+      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/kjxbyz/homebrew-casks/main/Info/artify.json&query=$.casks.[0].version&label=homebrew">
+    </td>
+  </tr>
 </table>
 
 ## Install
