@@ -27,8 +27,8 @@ cask "artify" do
   zap trash: [
     "~/Library/Application Support/Artify",
     "~/Library/Caches/Artify",
-    "~/Library/Caches/com.kjxbyz.artify",
-    "~/Library/Preferences/com.kjxbyz.artify.plist",
-    "~/Library/Saved Application State/com.kjxbyz.artify.savedState",
+    "~/Library/Caches/org.artifylabs.artify",
+    "~/Library/Preferences/org.artifylabs.artify.plist",
+    "~/Library/Saved Application State/org.artifylabs.artify.savedState",
   ]
 end
