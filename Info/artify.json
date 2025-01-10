@@ -11,17 +11,17 @@
       ],
       "desc": "Ideas, Painting & Art",
       "homepage": "https://artifylabs.org/",
-      "url": "https://github.com/artifylabs/artify/releases/download/v0.0.1+1/Artify_0.0.1+1_macos_universal.dmg",
+      "url": "https://github.com/artifylabs/artify/releases/download/v0.0.1+2/Artify_0.0.1+2_macos_universal.dmg",
       "url_specs": {
         "verified": "github.com/artifylabs/artify/"
       },
-      "version": "0.0.1+1",
+      "version": "0.0.1+2",
       "installed": null,
       "installed_time": null,
       "bundle_version": null,
       "bundle_short_version": null,
       "outdated": false,
-      "sha256": "4920f272d1cf397fc320d5293126b79e6d05367ca476bbc71dad5e391826c48d",
+      "sha256": "cce0f9c2da1751dbc868abd8a4bee4a14904aeea73d92e96b5dbcfc25f22431b",
       "artifacts": [
         {
           "app": [
@@ -65,7 +65,7 @@
       "languages": [],
       "ruby_source_path": null,
       "ruby_source_checksum": {
-        "sha256": "1a850eb216d3ffed62fbb75fa09a54b388f8e491831a47114ca251e8246095f0"
+        "sha256": "eb28d576a1c454e6b0cc64d5db7e6e4461bbb7d09222de2c583494a5f85ad931"
       }
     }
   ]
