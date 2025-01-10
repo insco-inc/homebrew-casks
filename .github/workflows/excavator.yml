@@ -18,9 +18,9 @@ jobs:
           # Required, custom GitHub access token with only the 'public_repo' scope enabled
           token: ${{ secrets.HOMEBREW_CASKS_TOKEN }}
           # Optional, will create tap repo fork in organization
-          # org: ORG
+          org: insco-inc
           # Bump all outdated casks in this tap
-          tap: kjxbyz/homebrew-casks
+          tap: insco-inc/homebrew-casks
           # Bump only these casks if outdated
           cask: fafarunner, picguard
           # Optional, if don't want to check for already open PRs
