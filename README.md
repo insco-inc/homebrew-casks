@@ -30,6 +30,12 @@
       <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/artify.json&query=$.casks.[0].version&label=homebrew">
     </td>
   </tr>
+  <tr>
+    <td>kitify</td>
+    <td>
+      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/kitify.json&query=$.casks.[0].version&label=homebrew">
+    </td>
+  </tr>
 </table>
 
 ## Install
