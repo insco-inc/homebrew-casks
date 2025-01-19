@@ -22,7 +22,7 @@ jobs:
           # Bump all outdated casks in this tap
           tap: insco-inc/homebrew-casks
           # Bump only these casks if outdated
-          cask: fafarunner, picguard, artify
+          cask: fafarunner, picguard, artify, kitify
           # Optional, if don't want to check for already open PRs
           force: false # true
           # Need to set this input if want to use `brew livecheck`
