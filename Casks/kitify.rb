@@ -1,6 +1,6 @@
 cask "kitify" do
-  version "0.0.1+1"
-  sha256 "44bd3b0249c17c70f44eb8f4c472cd738224b3db80b429cc6be70a002e4d41f2"
+  version "0.0.1+2"
+  sha256 "73095e0df3aa2b5e9c7851622efddbab276327e0b412fd77ece99a39c0d29475"
 
   url "https://github.com/kitifylabs/kitify/releases/download/v#{version}/Kitify_#{version}_macos_universal.dmg",
       verified: "github.com/kitifylabs/kitify/"
