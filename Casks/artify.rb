@@ -1,6 +1,6 @@
 cask "artify" do
-  version "0.0.1+2"
-  sha256 "cce0f9c2da1751dbc868abd8a4bee4a14904aeea73d92e96b5dbcfc25f22431b"
+  version "0.0.1+3"
+  sha256 "5a47155240875f27192231f3b2f40c2f2c51e3d739aeb83565f304ec55bdf5ab"
 
   url "https://github.com/artifylabs/artify/releases/download/v#{version}/Artify_#{version}_macos_universal.dmg",
       verified: "github.com/artifylabs/artify/"
