@@ -11,17 +11,17 @@
       ],
       "desc": "All-in-one tools, boosting your efficiency",
       "homepage": "https://kitifylabs.com/",
-      "url": "https://github.com/kitifylabs/kitify/releases/download/v0.0.1+1/Kitify_0.0.1+1_macos_universal.dmg",
+      "url": "https://github.com/kitifylabs/kitify/releases/download/v0.0.1+2/Kitify_0.0.1+2_macos_universal.dmg",
       "url_specs": {
         "verified": "github.com/kitifylabs/kitify/"
       },
-      "version": "0.0.1+1",
+      "version": "0.0.1+2",
       "installed": null,
       "installed_time": null,
       "bundle_version": null,
       "bundle_short_version": null,
       "outdated": false,
-      "sha256": "44bd3b0249c17c70f44eb8f4c472cd738224b3db80b429cc6be70a002e4d41f2",
+      "sha256": "73095e0df3aa2b5e9c7851622efddbab276327e0b412fd77ece99a39c0d29475",
       "artifacts": [
         {
           "app": [
@@ -65,7 +65,7 @@
       "languages": [],
       "ruby_source_path": null,
       "ruby_source_checksum": {
-        "sha256": "eb4552865bb23ca81e918a5c500e6553d6fec9219864aab883e7e192a0998e22"
+        "sha256": "c21a396dedd2e6a948b03e8d134d4a1f8d3837f4b6232095a3788b8eac738c40"
       }
     }
   ]
