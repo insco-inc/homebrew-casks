@@ -1,4 +1,4 @@
-# homebrew-casks
+# Homebrew Casks
 
 [![Test](https://github.com/insco-inc/homebrew-casks/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/insco-inc/homebrew-casks/actions/workflows/test.yml)
 [![Excavator](https://github.com/insco-inc/homebrew-casks/actions/workflows/excavator.yml/badge.svg)](https://github.com/insco-inc/homebrew-casks/actions/workflows/excavator.yml)
