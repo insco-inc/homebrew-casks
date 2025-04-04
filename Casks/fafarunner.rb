@@ -1,8 +1,8 @@
 cask "fafarunner" do
-  version "2.0.0+378"
-  sha256 "bb74cc49e909a0a045e1cdce63a1477362f8b7f71dbcf54612053e939f9fa9a8"
+  version "2.0.1+379"
+  sha256 "e11849e6f97dcc693b1a64afed03cee49c3725239219349d693a81aa7bf18201"
 
-  url "https://github.com/fafarunner/fafarunner/releases/download/v#{version}/FaFaRunner_#{version}_macos_universal.dmg",
+  url "https://github.com/fafarunner/fafarunner/releases/download/v#{version}/FaFaRunner-#{version.tr("+", ".")}-macos-universal.dmg",
       verified: "github.com/fafarunner/fafarunner/"
   name "FaFa Runner"
   desc "Enjoy smooth gameplay, stunning graphics, and endless fun"
