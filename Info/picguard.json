@@ -46,7 +46,7 @@
       "depends_on": {
         "macos": {
           ">=": [
-            "10.15"
+            "11"
           ]
         }
       },
@@ -65,7 +65,7 @@
       "languages": [],
       "ruby_source_path": null,
       "ruby_source_checksum": {
-        "sha256": "10bd3b46e1e4a1b423c6286959abf4ffe804c84fcab448f53e712d864f48646e"
+        "sha256": "a07aa4ece1f0548bfe6bb29f2800fafa3a167b647d3b018554309646e3f687af"
       }
     }
   ]
