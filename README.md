@@ -19,6 +19,12 @@
     </td>
   </tr>
   <tr>
+    <td>picguard-pro</td>
+    <td>
+      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/picguard-pro.json&query=$.casks.[0].version&label=homebrew">
+    </td>
+  </tr>
+  <tr>
     <td>fafarunner</td>
     <td>
       <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/fafarunner.json&query=$.casks.[0].version&label=homebrew">
