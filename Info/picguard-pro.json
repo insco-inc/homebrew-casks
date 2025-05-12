@@ -2,16 +2,16 @@
   "formulae": [],
   "casks": [
     {
-      "token": "picguard",
-      "full_token": "picguard",
+      "token": "picguard-pro",
+      "full_token": "picguard-pro",
       "old_tokens": [],
       "tap": null,
       "name": [
-        "PicGuard"
+        "PicGuard Pro"
       ],
       "desc": "Your pictures, your signature",
       "homepage": "https://picguard.app/",
-      "url": "https://github.com/picguard/picguard/releases/download/v2.5.4+447/PicGuard-2.5.4.447-macos-universal.dmg",
+      "url": "https://github.com/picguard/picguard/releases/download/v2.5.4+447/PicGuard-Pro-2.5.4.447-macos-universal.dmg",
       "url_specs": {
         "verified": "github.com/picguard/picguard/"
       },
@@ -21,22 +21,22 @@
       "bundle_version": null,
       "bundle_short_version": null,
       "outdated": false,
-      "sha256": "0a79b2b47d2a479d5f2bf10f2fa3289d61cb6098c76ee54ba4ddf23f1130c17b",
+      "sha256": "06eb3473553d4c552bce5064e8a20a76bee4ae07c955825ab470e458f40cff98",
       "artifacts": [
         {
           "app": [
-            "PicGuard.app"
+            "PicGuard Pro.app"
           ]
         },
         {
           "zap": [
             {
               "trash": [
-                "~/Library/Application Support/PicGuard",
-                "~/Library/Caches/com.kjxbyz.picguard",
-                "~/Library/Caches/PicGuard",
-                "~/Library/Preferences/com.kjxbyz.picguard.plist",
-                "~/Library/Saved Application State/com.kjxbyz.picguard.savedState"
+                "~/Library/Application Support/PicGuard Pro",
+                "~/Library/Caches/com.kjxbyz.picguard.pro",
+                "~/Library/Caches/PicGuard Pro",
+                "~/Library/Preferences/com.kjxbyz.picguard.pro.plist",
+                "~/Library/Saved Application State/com.kjxbyz.picguard.pro.savedState"
               ]
             }
           ]
@@ -67,7 +67,7 @@
       "languages": [],
       "ruby_source_path": null,
       "ruby_source_checksum": {
-        "sha256": "2f6ac75012976b9f930faf9ef532a958b3c6a9552bf1a291fdd9e1668c33b945"
+        "sha256": "0730f1253a000ea1e684b0456a13ac1d51df794e560a949fc64a36645bc0a23f"
       }
     }
   ]
