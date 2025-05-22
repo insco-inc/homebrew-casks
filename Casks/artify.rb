@@ -2,7 +2,7 @@ cask "artify" do
   version "0.0.1+4"
   sha256 "19700f325ad19cc649630552eed86316154c8bf5e5a4f12dfb354f99a390e337"
 
-  url "https://github.com/artifylabs/artify/releases/download/v#{version}/Artify_#{version}_macos_universal.dmg",
+  url "https://github.com/artifylabs/artify/releases/download/v#{version}/Artify-#{version.tr("+", ".")}-macos-universal.dmg",
       verified: "github.com/artifylabs/artify/"
   name "Artify"
   desc "Ideas, Painting & Art"

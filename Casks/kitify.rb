@@ -2,7 +2,7 @@ cask "kitify" do
   version "0.0.1+3"
   sha256 "d14276ff705ee05d744f2ef46647e3d9882ee104d6d3f5334db08f15ef39b539"
 
-  url "https://github.com/kitifylabs/kitify/releases/download/v#{version}/Kitify_#{version}_macos_universal.dmg",
+  url "https://github.com/kitifylabs/kitify/releases/download/v#{version}/Kitify-#{version.tr("+", ".")}-macos-universal.dmg",
       verified: "github.com/kitifylabs/kitify/"
   name "Kitify"
   desc "All-in-one tools, boosting your efficiency"
