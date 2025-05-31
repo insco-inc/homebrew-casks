@@ -16,6 +16,9 @@
         "verified": "github.com/picguard/picguard/"
       },
       "version": "2.5.4+447",
+      "autobump": true,
+      "no_autobump_message": null,
+      "skip_livecheck": false,
       "installed": null,
       "installed_time": null,
       "bundle_version": null,
