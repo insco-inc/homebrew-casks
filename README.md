@@ -3,7 +3,6 @@
 [![Test](https://github.com/insco-inc/homebrew-casks/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/insco-inc/homebrew-casks/actions/workflows/test.yml)
 [![Excavator](https://github.com/insco-inc/homebrew-casks/actions/workflows/excavator.yml/badge.svg)](https://github.com/insco-inc/homebrew-casks/actions/workflows/excavator.yml)
 [![Generate casks info](https://github.com/insco-inc/homebrew-casks/actions/workflows/build.yml/badge.svg)](https://github.com/insco-inc/homebrew-casks/actions/workflows/build.yml)
-<!-- [![Add version](https://github.com/insco-inc/homebrew-casks/actions/workflows/version.yml/badge.svg)](https://github.com/insco-inc/homebrew-casks/actions/workflows/version.yml) -->
 
 ## Casks
 
@@ -28,18 +27,6 @@
     <td>fafarunner</td>
     <td>
       <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/fafarunner.json&query=$.casks.[0].version&label=homebrew">
-    </td>
-  </tr>
-  <tr>
-    <td>artify</td>
-    <td>
-      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/artify.json&query=$.casks.[0].version&label=homebrew">
-    </td>
-  </tr>
-  <tr>
-    <td>kitify</td>
-    <td>
-      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/kitify.json&query=$.casks.[0].version&label=homebrew">
     </td>
   </tr>
 </table>
