@@ -1,8 +1,8 @@
 cask "fafarunner" do
-  version "2.5.4+384"
-  sha256 "92c1d733fce19807cc473709b7132839584400613cf346f98e879f834ea1b5e5"
+  version "2.5.5"
+  sha256 "35a0a17751aef5b8ddea43744cab6801d0f937936450af247ed8c75ef57c0b87"
 
-  url "https://github.com/fafarunner/fafarunner/releases/download/v#{version}/FaFaRunner-#{version.tr("+", ".")}-macos-universal.dmg",
+  url "https://github.com/fafarunner/fafarunner/releases/download/v#{version}/FaFaRunner-#{version}-macos-universal.dmg",
       verified: "github.com/fafarunner/fafarunner/"
   name "FaFa Runner"
   desc "Enjoy smooth gameplay, stunning graphics, and endless fun"
@@ -12,7 +12,7 @@ cask "fafarunner" do
     url :url
     strategy :git do |tags|
       tags.filter_map do |tag|
-        match = tag&.match(/^v?(\d+(?:\.\d+)+(\+\d+)?)$/i)
+        match = tag&.match(/^v?(\d+(?:\.\d+)+)$/i)
         next if match.blank?
 
         match[1]
