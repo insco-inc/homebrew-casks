@@ -12,7 +12,7 @@ cask "fafarunner" do
     url :url
     strategy :git do |tags|
       tags.filter_map do |tag|
-        match = tag&.match(/^v?(\d+(?:\.\d+)+)$/i)
+        match = tag&.match(/^v?(\d+(?:\.\d+)+(\+\d+)?)$/i)
         next if match.blank?
 
         match[1]
