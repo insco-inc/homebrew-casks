@@ -1,8 +1,8 @@
 cask "picguard" do
-  version "4.0.1+453"
-  sha256 "7595b10e5e908833ae7592e390828d95fdc2ab69543ba1bde8e69f78b1dfba3e"
+  version "4.0.2"
+  sha256 "c7455e758c20f9b700eaeeb6a9e96d2c312c0881409226575c719b37801c8cc1"
 
-  url "https://github.com/picguard/picguard/releases/download/v#{version}/PicGuard-#{version.tr("+", ".")}-macos-universal.dmg",
+  url "https://github.com/picguard/picguard/releases/download/v#{version}/PicGuard-#{version}-macos-universal.dmg",
       verified: "github.com/picguard/picguard/"
   name "PicGuard"
   desc "Your pictures, your signature"
