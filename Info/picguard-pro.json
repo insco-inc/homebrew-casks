@@ -55,6 +55,7 @@
       },
       "conflicts_with": null,
       "container": null,
+      "rename": [],
       "auto_updates": null,
       "deprecated": false,
       "deprecation_date": null,
