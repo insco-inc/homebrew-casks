@@ -11,11 +11,11 @@
       ],
       "desc": "Your pictures, your signature",
       "homepage": "https://picguard.app/",
-      "url": "https://github.com/picguard/picguard/releases/download/v4.0.3/PicGuard-4.0.3-macos-universal.dmg",
+      "url": "https://github.com/picguard/picguard/releases/download/v5.0.0/PicGuard-5.0.0-macos-universal.dmg",
       "url_specs": {
         "verified": "github.com/picguard/picguard/"
       },
-      "version": "4.0.3",
+      "version": "5.0.0",
       "autobump": true,
       "no_autobump_message": null,
       "skip_livecheck": false,
@@ -24,7 +24,7 @@
       "bundle_version": null,
       "bundle_short_version": null,
       "outdated": false,
-      "sha256": "9b32d7703e9c8078c395140a9abb9b12479798703ba88d61aacc6c8c0b2e2e87",
+      "sha256": "98faf691b8df53e7302891f416155571ef933e0120f0fcd9e3f01e4bfa34c1e4",
       "artifacts": [
         {
           "app": [
@@ -71,7 +71,7 @@
       "languages": [],
       "ruby_source_path": null,
       "ruby_source_checksum": {
-        "sha256": "9f20f190ffe5b13bf7dbf85018c8e5483c5c34734b1950963a1184cd392c9829"
+        "sha256": "dfadfc983f79cd3063c26a14d473e038cd1484f236ccb7664c52728275eb8d00"
       }
     }
   ]
