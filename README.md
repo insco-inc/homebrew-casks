@@ -2,34 +2,14 @@
 
 [![Test](https://github.com/insco-inc/homebrew-casks/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/insco-inc/homebrew-casks/actions/workflows/test.yml)
 [![Excavator](https://github.com/insco-inc/homebrew-casks/actions/workflows/excavator.yml/badge.svg)](https://github.com/insco-inc/homebrew-casks/actions/workflows/excavator.yml)
-[![Generate casks info](https://github.com/insco-inc/homebrew-casks/actions/workflows/build.yml/badge.svg)](https://github.com/insco-inc/homebrew-casks/actions/workflows/build.yml)
 
 ## Casks
 
-<table>
-  <tr>
-    <th>Casks</th>
-    <th style="text-align: center">Version</th>
-  </tr>
-  <tr>
-    <td>picguard</td>
-    <td>
-      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/picguard.json&query=$.casks.[0].version&label=homebrew">
-    </td>
-  </tr>
-  <tr>
-    <td>picguard-pro</td>
-    <td>
-      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/picguard-pro.json&query=$.casks.[0].version&label=homebrew">
-    </td>
-  </tr>
-  <tr>
-    <td>fafarunner</td>
-    <td>
-      <img alt="Homebrew Cask Version" src="https://img.shields.io/badge/dynamic/json.svg?url=https://raw.githubusercontent.com/insco-inc/homebrew-casks/main/Info/fafarunner.json&query=$.casks.[0].version&label=homebrew">
-    </td>
-  </tr>
-</table>
+| Cask         | Version                                                                                                                                                                                                                                                                                                                  | 
+|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| picguard     | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Finsco-inc%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Fpicguard.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew)     |
+| picguard-pro | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Finsco-inc%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Fpicguard-pro.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew) |
+| fafarunner   | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Finsco-inc%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Ffafarunner.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew)   |
 
 ## Install
 
