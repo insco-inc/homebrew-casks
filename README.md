@@ -1,26 +1,26 @@
 # Homebrew Casks
 
-[![Test](https://github.com/insco-inc/homebrew-casks/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/insco-inc/homebrew-casks/actions/workflows/test.yml)
-[![Excavator](https://github.com/insco-inc/homebrew-casks/actions/workflows/excavator.yml/badge.svg)](https://github.com/insco-inc/homebrew-casks/actions/workflows/excavator.yml)
+[![Test](https://github.com/qiazo/homebrew-casks/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/qiazo/homebrew-casks/actions/workflows/test.yml)
+[![Excavator](https://github.com/qiazo/homebrew-casks/actions/workflows/excavator.yml/badge.svg)](https://github.com/qiazo/homebrew-casks/actions/workflows/excavator.yml)
 
 ## Casks
 
-| Cask         | Version                                                                                                                                                                                                                                                                                                                  | 
-|:-------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| picguard     | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Finsco-inc%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Fpicguard.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew)     |
-| picguard-pro | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Finsco-inc%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Fpicguard-pro.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew) |
-| fafarunner   | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Finsco-inc%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Ffafarunner.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew)   |
+| Cask         | Version                                                                                                                                                                                                                                                                                                              | 
+|:-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| picguard     | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fqiazo%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Fpicguard.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew)     |
+| picguard-pro | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fqiazo%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Fpicguard-pro.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew) |
+| fafarunner   | ![Homebrew Cask Version](https://img.shields.io/badge/dynamic/regex?url=https%3A%2F%2Fraw.githubusercontent.com%2Fqiazo%2Fhomebrew-casks%2Frefs%2Fheads%2Fmain%2FCasks%2Ffafarunner.rb&search=version%5Cs%2B%22%28%3F%3Cversion%3E%5Cd%2B%28%3F%3A%5C.%5Cd%2B%29%2B%29%22&replace=%24%3Cversion%3E&label=homebrew)   |
 
 ## Install
 
-`brew install insco-inc/casks/<cask>`
+`brew install qiazo/casks/<cask>`
 
-Or `brew tap insco-inc/casks` and then `brew install <cask>`.
+Or `brew tap qiazo/casks` and then `brew install <cask>`.
 
 Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
 
 ```ruby
-tap "insco-inc/casks"
+tap "qiazo/casks"
 brew "<cask>"
 ```
 
